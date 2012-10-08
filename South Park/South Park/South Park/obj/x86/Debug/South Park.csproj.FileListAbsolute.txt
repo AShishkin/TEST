@@ -1,0 +1,204 @@
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\South Park.exe
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\South Park.pdb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\obj\x86\Debug\South Park.exe
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\obj\x86\Debug\South Park.pdb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\MySpriteFont.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\TestBackground.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\MySpriteFont.spritefont
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman01.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman02.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Interface02.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Interface03.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Wave.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Snowball.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman03.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Облака\Clouds.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Money.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Камни\Stones.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Круги\Bubble1.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound01.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound02.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound03.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound04.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Alert.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound05.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound07.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Tawer1Level1.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Tawer1Level2.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound09.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound06.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound11.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound12.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Уровни\StartLevel.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound13.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound14.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound15.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartDown.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeft.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeftDown.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeftUp.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRight.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRightDown.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRightUp.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartUp.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\1.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveRight\MoveRight.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveDown\MoveDown.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\CartmanHouse\CartmanHouse.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Arrow\Arrow.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog1.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Dead.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog2.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Surprise.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheLeft.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheRight.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheDown.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog3.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog4.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog5.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog6.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog7.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog8.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog9.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog10.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog11_1.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog11_2.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Inactivity.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Stopped\Stopped.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Down.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Up.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Left.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Right.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Turns\Left.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Turns\Right.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth01.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth02.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth03.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth04.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth05.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth06.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth07.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth08.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth09.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth10.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth11.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth12.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth13.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth14.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth15.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth16.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth17.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth18.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth19.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth20.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\CartmanHouse\CartmanHouse.sp
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Южный парк\Title\Title.sou
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveDown\MoveDown.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveUp\MoveUp.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveRight\MoveRight.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveLeft\MoveLeft.xnb
+C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Panel.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\South Park.exe
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\South Park.pdb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Южный парк\Title\Title.sou
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog1.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Left.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Right.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\TestBackground.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman03.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Interface02.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Interface03.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Dead.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog2.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Surprise.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Tawer1Level1.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Wave.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Snowball.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheLeft.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheRight.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman02.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Облака\Clouds.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Money.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Камни\Stones.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Arrow\Arrow.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog3.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog4.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog5.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog6.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Круги\Bubble1.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Alert.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Tawer1Level2.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog7.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog8.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog9.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog10.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog11_1.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog11_2.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeft.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeftDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeftUp.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRight.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRightDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRightUp.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartUp.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\CartmanHouse\CartmanHouse.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\1.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveDown\MoveDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveRight\MoveRight.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Inactivity.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Stopped\Stopped.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Down.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Up.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Turns\Left.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Turns\Right.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth01.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth02.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth03.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth04.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth05.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth06.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth07.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth08.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth09.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth10.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth11.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth12.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth13.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth14.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth15.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth16.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth17.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth18.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth19.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth20.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveDown\MoveDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveUp\MoveUp.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveRight\MoveRight.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveLeft\MoveLeft.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman01.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Panel.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\MySpriteFont.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound01.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound02.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound03.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound04.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound05.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound07.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound09.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound06.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound11.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound12.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Уровни\StartLevel.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound13.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound14.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound15.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\MySpriteFont.spritefont
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\CartmanHouse\CartmanHouse.sp
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\South Park.exe
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\South Park.pdb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt

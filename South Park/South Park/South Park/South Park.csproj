@@ -113,6 +113,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="South Park\CheckPoints\ManagerCheckPoints\ManagerCheckPoints.cs" />
+    <Compile Include="South Park\Enemies\ManagerEnemies\ManagerEnemies.cs" />
+    <Compile Include="South Park\Game map\ManagerCollision.cs" />
+    <Compile Include="South Park\Game map\ManagerDrawingInterface.cs" />
+    <Compile Include="South Park\Tawers\Counter\TawerCounter.cs" />
     <Compile Include="South Park\Title\rTitle.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -127,14 +132,14 @@
     <Compile Include="South Park\HealthIndicator\HealthIndicator.cs" />
     <Compile Include="South Park\Money\Money.cs" />
     <Compile Include="South Park\ObjectPool.cs" />
-    <Compile Include="South Park\Башни\Shell.cs" />
+    <Compile Include="South Park\Tawers\Shells\Laser.cs" />
     <Compile Include="South Park\Главные герои\Snowball.cs" />
     <Compile Include="South Park\CheckPoints\CheckPointFinish.cs" />
     <Compile Include="South Park\CheckPoints\CheckPointStart.cs" />
     <Compile Include="South Park\Game map\Level.cs" />
     <Compile Include="South Park\Animation.cs" />
-    <Compile Include="South Park\Башни\ITawers.cs" />
-    <Compile Include="South Park\Башни\CameraTawer.cs" />
+    <Compile Include="South Park\Tawers\ITawers.cs" />
+    <Compile Include="South Park\Tawers\CameraTawer\CameraTawer.cs" />
     <Compile Include="South Park\Главные герои\IHeroes.cs" />
     <Compile Include="South Park\Главные герои\Картман\Cartman.cs" />
     <Compile Include="South Park\Камни\Stones.cs" />

@@ -1,2 +1,3 @@
 C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South ParkContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\фыв\Desktop\South Park\South Park\South ParkContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\South Park\South Park\South ParkContent\obj\x86\Debug\ResolveAssemblyReference.cache

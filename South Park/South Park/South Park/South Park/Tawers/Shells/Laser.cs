@@ -4,12 +4,12 @@ using System.Drawing;
 
 namespace South_Park
 {
-    class Shell : DrawableGameComponent
+    class Laser : DrawableGameComponent
     {
-        Animation _SpriteAnimation;
-        SpriteBatch _SpriteBatch;
+        private Animation _SpriteAnimation;
+        private SpriteBatch _SpriteBatch;
 
-        public Shell(Game game, Vector2 Location, string Type)
+        public Laser(Game game, Vector2 Location, string Type)
             : base(game)
         {
             this.Type = Type;

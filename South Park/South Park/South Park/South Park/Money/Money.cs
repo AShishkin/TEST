@@ -3,11 +3,17 @@ namespace South_Park
 {
     struct Money
     {
-        public Money(int money)
+        /// <summary>
+        /// Монеты
+        /// </summary>
+        /// <param name="count">Колличество</param>
+        public Money(int count)
         {
-            this.Count = money;
+            this.Count = count;
         }
-
+        /// <summary>
+        /// Колличество монет
+        /// </summary>
         public int Count;
     }
 }

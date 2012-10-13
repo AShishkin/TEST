@@ -2,7 +2,7 @@
 
 namespace South_Park
 {
-    struct CheckPointFinish
+    class CheckPointFinish
     {
         public CheckPointFinish(Vector2 location)
         {

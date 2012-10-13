@@ -42,21 +42,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog1.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog1.png">
       <Name>Dialog1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Movement\Left.png">
+    <Compile Include="CartmanContent\Movement\Left.png">
       <Name>Left</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Movement\Right.png">
+    <Compile Include="CartmanContent\Movement\Right.png">
       <Name>Right</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -79,42 +79,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Интерфейс\Картман\InterfaceCartman03.png">
-      <Name>InterfaceCartman03</Name>
+    <Compile Include="InterfaceContent\City.png">
+      <Name>City</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Интерфейс\Interface02.png">
-      <Name>Interface02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Интерфейс\Interface03.png">
-      <Name>Interface03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Картман\Действия\Dead.png">
+    <Compile Include="CartmanContent\Действия\Dead.png">
       <Name>Dead</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog2.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog2.png">
       <Name>Dialog2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Surprise.png">
+    <Compile Include="CartmanContent\Действия\Surprise.png">
       <Name>Surprise</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -142,29 +128,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Throws\ThrowToTheLeft.png">
+    <Compile Include="CartmanContent\Действия\Throws\ThrowToTheLeft.png">
       <Name>ThrowToTheLeft</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Throws\ThrowToTheRight.png">
+    <Compile Include="CartmanContent\Действия\Throws\ThrowToTheRight.png">
       <Name>ThrowToTheRight</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Throws\ThrowToTheDown.png">
+    <Compile Include="CartmanContent\Действия\Throws\ThrowToTheDown.png">
       <Name>ThrowToTheDown</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Интерфейс\Картман\InterfaceCartman02.png">
-      <Name>InterfaceCartman02</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -177,7 +156,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Интерфейс\Money.png">
+    <Compile Include="InterfaceContent\Money.png">
       <Name>Money</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -198,17 +177,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog3.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog3.png">
       <Name>Dialog3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Картман\Разговоры\Dialog4.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog4.png">
       <Name>Dialog4</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Картман\Разговоры\Dialog5.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog5.png">
       <Name>Dialog5</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -243,7 +222,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog6.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog6.png">
       <Name>Dialog6</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -252,13 +231,6 @@
   <ItemGroup>
     <Compile Include="Круги\Bubble1.png">
       <Name>Bubble1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Интерфейс\Alert.png">
-      <Name>Alert</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -292,7 +264,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog7.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog7.png">
       <Name>Dialog7</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -306,14 +278,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog8.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog8.png">
       <Name>Dialog8</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog9.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog9.png">
       <Name>Dialog9</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -348,7 +320,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog10.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog10.png">
       <Name>Dialog10</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -362,12 +334,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Разговоры\Dialog11_1.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog11_1.png">
       <Name>Dialog11_1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Картман\Разговоры\Dialog11_2.png">
+    <Compile Include="CartmanContent\Разговоры\Dialog11_2.png">
       <Name>Dialog11_2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -457,42 +429,42 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Inactivity.png">
+    <Compile Include="CartmanContent\Действия\Inactivity.png">
       <Name>Inactivity</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Stopped\Stopped.png">
-      <Name>Stopped</Name>
+    <Compile Include="CartmanContent\Stopped\StoppedGood.png">
+      <Name>StoppedGood</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Movement\Down.png">
+    <Compile Include="CartmanContent\Movement\Down.png">
       <Name>Down</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Movement\Up.png">
+    <Compile Include="CartmanContent\Movement\Up.png">
       <Name>Up</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Turns\Left.png">
+    <Compile Include="CartmanContent\Действия\Turns\Left.png">
       <Name>Left</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Картман\Действия\Turns\Right.png">
+    <Compile Include="CartmanContent\Действия\Turns\Right.png">
       <Name>Right</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -623,15 +595,53 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Интерфейс\Картман\InterfaceCartman01.png">
-      <Name>InterfaceCartman01</Name>
+    <Compile Include="CartmanContent\Stopped\StoppedBad.png">
+      <Name>StoppedBad</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Интерфейс\Panel.png">
+    <Compile Include="CartmanContent\Stopped\StoppedNormal.png">
+      <Name>StoppedNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InterfaceContent\Alert\InterfaceAlert.png">
+      <Name>InterfaceAlert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InterfaceContent\Tawer.png">
+      <Name>Tawer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InterfaceContent\Panel.png">
       <Name>Panel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InterfaceContent\CartmanInterfaceContent\Icons\IconBad.png">
+      <Name>IconBad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="InterfaceContent\CartmanInterfaceContent\Icons\IconGood.png">
+      <Name>IconGood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.png">
+      <Name>IconNormal</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

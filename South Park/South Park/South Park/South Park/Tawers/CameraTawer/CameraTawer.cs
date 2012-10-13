@@ -123,7 +123,11 @@ namespace South_Park
                     Animation.StartFrame = Animation.Frames = this.Direction = _RandomDirection.Next(1, 8);
             }
             else
-                this.InactivityTime++; 
+            {
+                this.InactivityTime++;
+                Animation.StartFrame = Animation.Frames = this.Direction;
+            }
+            
         }
 
 

@@ -33,8 +33,12 @@ namespace South_Park
 
         // Делегат методов
         private delegate void DMethods();
-        // Словарь текстур
-        private Dictionary<int, Texture2D> Texture;
+
+        // Словарь текстур передвижения
+        private Dictionary<int, Texture2D> TextureMovement;
+        // Словарь текстур диалогов
+        private Dictionary<int, Texture2D> TextureDialogs;
+
         // Словарь команд бросания снежка
         private Dictionary<int, DMethods> ThrowingOfSnowballs; 
         // Словарь команд передвижения
@@ -71,18 +75,18 @@ namespace South_Park
         public Cartman(Game game, Vector2 location)
             : base(game)
         {
-            Texture = new Dictionary<int, Texture2D>();
+            TextureMovement = new Dictionary<int, Texture2D>();
             SoundEffect = new SoundEffect[30];
 
             this.LoadContent(); 
 
-            ThrowingOfSnowballs = new Dictionary<int, DMethods>
-            {
-                { 0, this.ThrowToTheLeft },
-                //{ 1, delegate(double x, double y) { return x - y; } },
-                { 2, this.ThrowToTheRight },
-                { 3, this.ThrowToTheDown },
-            };
+            //ThrowingOfSnowballs = new Dictionary<int, DMethods>
+            //{
+            //    { 0, this.ThrowToTheLeft },
+            //    //{ 1, delegate(double x, double y) { return x - y; } },
+            //    { 2, this.ThrowToTheRight },
+            //    { 3, this.ThrowToTheDown },
+            //};
 
 
             #region ## Словарь методов передвижения ##
@@ -111,23 +115,23 @@ namespace South_Park
 
             #region ## Словарь методов диалогов и фраз ##
 
-            Dialogues = new Dictionary<int, DMethods>
-            {
-                { 1, this.TurnToTheLeft },
-                { 2, this.Inactivity },
-                { 3, this.TurnToTheRight },
-                { 4, this.WithoutMovement },
-                { 5, this.Noooo },
-                { 6, this.SurpriseDialog },
-                { 7, this.Curse },
-                { 8, this.Question },
-                { 9, this.ShockDialog },
-                { 10, this.BoredomThePhrase },
-                { 11, this.ApprovalTheUser },
-                { 12, this.MegaSurprise },
-                { 13, this.ApprovalTheUser },
-                { 14, this.No },
-            };
+            //Dialogues = new Dictionary<int, DMethods>
+            //{
+            //    { 1, this.TurnToTheLeft },
+            //    { 2, this.Inactivity },
+            //    { 3, this.TurnToTheRight },
+            //    { 4, this.WithoutMovement },
+            //    { 5, this.Noooo },
+            //    { 6, this.SurpriseDialog },
+            //    { 7, this.Curse },
+            //    { 8, this.Question },
+            //    { 9, this.ShockDialog },
+            //    { 10, this.BoredomThePhrase },
+            //    { 11, this.ApprovalTheUser },
+            //    { 12, this.MegaSurprise },
+            //    { 13, this.ApprovalTheUser },
+            //    { 14, this.No },
+            //};
 
             #endregion
 
@@ -143,8 +147,8 @@ namespace South_Park
             this.Location = location;
 
             this.SpriteSize = new Size(80, 80);
-            
-            Animation = new Animation(Game, this.Texture[0], this.Location, this.SpriteSize, 3, 8);
+
+            Animation = new Animation(Game, this.TextureMovement[0], this.Location, this.SpriteSize, 3, 8);
             HealthIndicator = new HealthIndicator(Game);
             Random = new Random(DateTime.Now.Millisecond);
             Continuum = new Continuum(5);
@@ -256,7 +260,7 @@ namespace South_Park
         }
         public void Dialog(int index)
         {
-            BoredomThePhrase();
+            //BoredomThePhrase();
            // Dialogues[index]();
         }
 
@@ -349,8 +353,8 @@ namespace South_Park
 
         private void AnimationMove(int index, int direction, int frame, int startFrame, float TimeFrame)
         {
-            if(Animation.Texture != this.Texture[index])
-                Animation.Texture = this.Texture[index];
+            if(Animation.Texture != this.TextureMovement[index])
+                Animation.Texture = this.TextureMovement[index];
 
             if(Animation.Frames != frame)
                 Animation.Frames = frame;
@@ -446,69 +450,71 @@ namespace South_Park
         #region ## Диалоги ##
 
         // +
-        private void Question()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[2].Play();
+        //private void Question()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[2].Play();
 
-            Animation.Construct(this.Texture[9], 3, 0, 0.125F);
+        //    Animation.Construct(this.Texture[9], 3, 0, 0.125F);
 
-            if (Animation.CurrentFrame == Animation.Frames - 1)
-                if ((this.InactivityTime >= 340) && (this.InactivityTime <= 350))
-                    Animation.Construct(this.Texture[9], 2, 2, 0.125F);
-                else Animation.Construct(this.Texture[8], 2, 2, 0.125F);                
-        }
-
-        // +
-        private void Noooo()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[3].Play();
-
-            Animation.Construct(this.Texture[8], 3, 0, 0.125F);
-
-            if (Animation.CurrentFrame == Animation.Frames - 1)
-                this.Animation.Construct(this.Texture[8], 2, 2, 0.125F); 
-        }
+        //    if (Animation.CurrentFrame == Animation.Frames - 1)
+        //        if ((this.InactivityTime >= 340) && (this.InactivityTime <= 350))
+        //            Animation.Construct(this.Texture[9], 2, 2, 0.125F);
+        //        else Animation.Construct(this.Texture[8], 2, 2, 0.125F);                
+        //}
 
         // +
-        private void Inactivity()
-        {
-            if (this.Health <= 30)
-            {
-                if (this.InactivityTime == 205)
-                    SoundEffect[6].Play();
-                if (this.InactivityTime <= 315)
-                    Animation.Construct(this.Texture[7], 3, 0, 0.125F);
-            }
-            else
-            {
-                if (this.InactivityTime == 205)
-                    SoundEffect[4].Play();
-                if (this.InactivityTime <= 295)
-                    Animation.Construct(this.Texture[6], 3, 0, 0.125F);
-            }
-        }
+        //private void Noooo()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[3].Play();
+
+        //    Animation.Construct(this.Texture[8], 3, 0, 0.125F);
+
+        //    if (Animation.CurrentFrame == Animation.Frames - 1)
+        //        this.Animation.Construct(this.Texture[8], 2, 2, 0.125F); 
+        //}
 
         // +
-        private void SurpriseDialog()
-        {
-            Animation.Construct(this.Texture[30], 3, 0, 0.125F);
+        //private void Inactivity()
+        //{
+        //    if (this.Health <= 30)
+        //    {
+        //        if (this.InactivityTime == 205)
+        //            SoundEffect[6].Play();
+        //        if (this.InactivityTime <= 315)
+        //            Animation.Construct(this.Texture[7], 3, 0, 0.125F);
+        //    }
+        //    else
+        //    {
+        //        if (this.InactivityTime == 205)
+        //            SoundEffect[4].Play();
+        //        if (this.InactivityTime <= 295)
+        //            Animation.Construct(this.Texture[6], 3, 0, 0.125F);
+        //    }
+        //}
 
-            if (Animation.CurrentFrame == Animation.Frames - 1)
-                if (this.InactivityTime >= 380)
-                    Animation.Construct(this.Texture[30], 2, 0);
-                else Animation.Construct(this.Texture[30], 2, 2);
+        // +
+        //private void SurpriseDialog()
+        //{
+        //    Animation.Construct(this.Texture[30], 3, 0, 0.125F);
+
+        //    if (Animation.CurrentFrame == Animation.Frames - 1)
+        //        if (this.InactivityTime >= 380)
+        //            Animation.Construct(this.Texture[30], 2, 0);
+        //        else Animation.Construct(this.Texture[30], 2, 2);
                     
-        }
+        //}
 
         // +
         private void WithoutMovement()
         {
             this.InactivityTime++;
 
-            Animation.Construct(this.Texture[4], 3, 0);
-
+            if (this.Health > 0 && this.Health < 31) Animation.Construct(this.TextureMovement[6], 3, 0);
+            else if (this.Health > 30 && this.Health < 66) Animation.Construct(this.TextureMovement[5], 3, 0);
+            else if (this.Health > 66 && this.Health < 101) Animation.Construct(this.TextureMovement[4], 3, 0);
+                
             if (this.Direction != 3)
                 this.Direction = 3;
         }
@@ -519,207 +525,207 @@ namespace South_Park
 
 
         // +-
-        private void Curse()
-        {
-            if(this.InactivityTime == 205)
-                SoundEffect[0].Play();
+        //private void Curse()
+        //{
+        //    if(this.InactivityTime == 205)
+        //        SoundEffect[0].Play();
 
-            Animation.Construct(this.Texture[10], 3, 0, 0.125F);
+        //    Animation.Construct(this.Texture[10], 3, 0, 0.125F);
 
-            if (Animation.CurrentFrame == Animation.Frames - 1)
-                if ((this.InactivityTime >= 208) && (this.InactivityTime <= 232))
-                    Animation.Construct(this.Texture[22], 2, 2, 0.125F);
-                else Animation.Construct(this.Texture[10], 2, 2, 0.125F);
-        }
+        //    if (Animation.CurrentFrame == Animation.Frames - 1)
+        //        if ((this.InactivityTime >= 208) && (this.InactivityTime <= 232))
+        //            Animation.Construct(this.Texture[22], 2, 2, 0.125F);
+        //        else Animation.Construct(this.Texture[10], 2, 2, 0.125F);
+        //}
 
         
         
 
 
-        // Править анимацию и звук +-
-        private void ShockDialog()
-        {
-            Animation.Construct(this.Texture[11], 3, 0, 0.125F);
+        //// Править анимацию и звук +-
+        //private void ShockDialog()
+        //{
+        //    Animation.Construct(this.Texture[11], 3, 0, 0.125F);
 
-            if (Animation.CurrentFrame == Animation.Frames - 1)
-                if(this.InactivityTime >= 230)
-                    Animation.Construct(this.Texture[7], 2, 2, 0.125F);
+        //    if (Animation.CurrentFrame == Animation.Frames - 1)
+        //        if(this.InactivityTime >= 230)
+        //            Animation.Construct(this.Texture[7], 2, 2, 0.125F);
 
-            if (this.InactivityTime == 205)
-                SoundEffect[3].Play();
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[3].Play();
 
-        }
+        //}
 
-        /// <summary>
-        /// Скука
-        /// </summary>
-        private void BoredomThePhrase()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[9].Play();
+        ///// <summary>
+        ///// Скука
+        ///// </summary>
+        //private void BoredomThePhrase()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[9].Play();
 
-            if (this.InactivityTime <= 280)
-                Animation.Construct(this.Texture[12], 3, 0, 0.125F);
-            else this.InactivityTime = 0;       
-        }
+        //    if (this.InactivityTime <= 280)
+        //        Animation.Construct(this.Texture[12], 3, 0, 0.125F);
+        //    else this.InactivityTime = 0;       
+        //}
 
-        /// <summary>
-        /// Хвальба пользователя
-        /// </summary>
-        private void ApprovalTheUser()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[5].Play();
+        ///// <summary>
+        ///// Хвальба пользователя
+        ///// </summary>
+        //private void ApprovalTheUser()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[5].Play();
 
-            if (this.InactivityTime <= 230)
-                Animation.Construct(this.Texture[18], 3, 0, 0.125F);
-            else
-                if(this.InactivityTime <= 280)
-                    Animation.Construct(this.Texture[12], 3, 0, 0.125F);
-                else this.InactivityTime = 0;
-        }
+        //    if (this.InactivityTime <= 230)
+        //        Animation.Construct(this.Texture[18], 3, 0, 0.125F);
+        //    else
+        //        if(this.InactivityTime <= 280)
+        //            Animation.Construct(this.Texture[12], 3, 0, 0.125F);
+        //        else this.InactivityTime = 0;
+        //}
 
-        /// <summary>
-        /// Сильное удивление
-        /// </summary>
-        private void MegaSurprise()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[11].Play();
+        ///// <summary>
+        ///// Сильное удивление
+        ///// </summary>
+        //private void MegaSurprise()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[11].Play();
 
-            if (this.InactivityTime <= 230)
-                Animation.Construct(this.Texture[14], 3, 0, 0.125F);
-            else
-                if (this.InactivityTime <= 284)
-                    Animation.Construct(this.Texture[12], 3, 0, 0.125F);
-                else this.InactivityTime = 0;
-        }
+        //    if (this.InactivityTime <= 230)
+        //        Animation.Construct(this.Texture[14], 3, 0, 0.125F);
+        //    else
+        //        if (this.InactivityTime <= 284)
+        //            Animation.Construct(this.Texture[12], 3, 0, 0.125F);
+        //        else this.InactivityTime = 0;
+        //}
 
-        /// <summary>
-        /// Досада
-        /// </summary>
-        private void Disappointment()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[12].Play();
+        ///// <summary>
+        ///// Досада
+        ///// </summary>
+        //private void Disappointment()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[12].Play();
 
-            if (this.InactivityTime <= 290)
-                Animation.Construct(this.Texture[4], 3, 0, 0.125F);
-            else this.InactivityTime = 0;
-        }
+        //    if (this.InactivityTime <= 290)
+        //        Animation.Construct(this.Texture[4], 3, 0, 0.125F);
+        //    else this.InactivityTime = 0;
+        //}
 
-        private void No()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[14].Play();
+        //private void No()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[14].Play();
 
-            if (this.InactivityTime <= 230)
-                Animation.Construct(this.Texture[20], 3, 0, 0.125F);
-            else this.InactivityTime = 0;
-        }
+        //    if (this.InactivityTime <= 230)
+        //        Animation.Construct(this.Texture[20], 3, 0, 0.125F);
+        //    else this.InactivityTime = 0;
+        //}
 
-        private void Freedom()
-        {
-            if (this.InactivityTime == 205)
-                SoundEffect[15].Play();
+        //private void Freedom()
+        //{
+        //    if (this.InactivityTime == 205)
+        //        SoundEffect[15].Play();
 
-            if (this.InactivityTime <= 300)
-                Animation.Construct(this.Texture[16], 3, 0, 0.125F);
-            else
-                if((this.InactivityTime > 300) && (this.InactivityTime < 365))
-                    Animation.Construct(this.Texture[17], 3, 0, 0.125F);
-        }
+        //    if (this.InactivityTime <= 300)
+        //        Animation.Construct(this.Texture[16], 3, 0, 0.125F);
+        //    else
+        //        if((this.InactivityTime > 300) && (this.InactivityTime < 365))
+        //            Animation.Construct(this.Texture[17], 3, 0, 0.125F);
+        //}
 
         #endregion
 
         #region ## Действия ##
 
-        // +
-        private void TurnToTheLeft()
-        {
-            Animation.Construct(this.Texture[31], 3, 0, 0.125F);
-        }
+        //// +
+        //private void TurnToTheLeft()
+        //{
+        //    Animation.Construct(this.Texture[31], 3, 0, 0.125F);
+        //}
 
-        // +
-        private void TurnToTheRight()
-        {
-            Animation.Construct(this.Texture[32], 3, 0, 0.125F);
-        }
+        //// +
+        //private void TurnToTheRight()
+        //{
+        //    Animation.Construct(this.Texture[32], 3, 0, 0.125F);
+        //}
 
-        /// <summary>
-        /// Анимация смерти
-        /// </summary>
-        private void Dead()
-        {
-            _DeadTimer++;
+        ///// <summary>
+        ///// Анимация смерти
+        ///// </summary>
+        //private void Dead()
+        //{
+        //    _DeadTimer++;
 
-            Animation.Frames = 5;
-            Animation.Texture = this.Texture[33];
+        //    Animation.Frames = 5;
+        //    Animation.Texture = this.Texture[33];
 
-            if (_DeadTimer == 500)
-            {
-                this.Health = HealthIndicator.Health = 100;
-                this.ContinuumCount--;
-            }
-        }
+        //    if (_DeadTimer == 500)
+        //    {
+        //        this.Health = HealthIndicator.Health = 100;
+        //        this.ContinuumCount--;
+        //    }
+        //}
 
-        private void Sleep()
-        {
-            if ((this.InactivityTime >= 200) && (this.InactivityTime <= 230))
-                Animation.Construct(this.Texture[23], 3, 0, 0.125F);
+        //private void Sleep()
+        //{
+        //    if ((this.InactivityTime >= 200) && (this.InactivityTime <= 230))
+        //        Animation.Construct(this.Texture[23], 3, 0, 0.125F);
             
-        }
+        //}
 
         #endregion
 
 
-        #region ** Бросок снежка **
+        //#region ** Бросок снежка **
 
-        private void ToThrowSnowball(int Direction)
-        {
-            if(this.InactivityTime != 0)
-                this.InactivityTime = 0;
+        //private void ToThrowSnowball(int Direction)
+        //{
+        //    if(this.InactivityTime != 0)
+        //        this.InactivityTime = 0;
 
-             ThrowingOfSnowballs[Direction]();   
-        }
+        //     ThrowingOfSnowballs[Direction]();   
+        //}
 
 
 
-        private void ThrowToTheLeft()
-        {
-            if (Animation.Texture != this.Texture[8])
-                Animation.Texture = this.Texture[8];
+        //private void ThrowToTheLeft()
+        //{
+        //    if (Animation.Texture != this.Texture[8])
+        //        Animation.Texture = this.Texture[8];
 
-            if (Animation.Frames != 3)
-                Animation.Frames = 3;
+        //    if (Animation.Frames != 3)
+        //        Animation.Frames = 3;
 
-            if (Animation.TimeFrame != 0.125F)
-                Animation.TimeFrame = 0.125F;
-        }
+        //    if (Animation.TimeFrame != 0.125F)
+        //        Animation.TimeFrame = 0.125F;
+        //}
 
-        private void ThrowToTheRight()
-        {
-            if (Animation.Texture != this.Texture[9])
-                Animation.Texture = this.Texture[9];
+        //private void ThrowToTheRight()
+        //{
+        //    if (Animation.Texture != this.Texture[9])
+        //        Animation.Texture = this.Texture[9];
 
-            if (Animation.Frames != 3)
-                Animation.Frames = 3;
+        //    if (Animation.Frames != 3)
+        //        Animation.Frames = 3;
 
-            if (Animation.TimeFrame != 0.125F)
-                Animation.TimeFrame = 0.125F;
-        }
+        //    if (Animation.TimeFrame != 0.125F)
+        //        Animation.TimeFrame = 0.125F;
+        //}
 
-        private void ThrowToTheDown()
-        {
-            if (Animation.Texture != this.Texture[10])
-                Animation.Texture = this.Texture[10];
+        //private void ThrowToTheDown()
+        //{
+        //    if (Animation.Texture != this.Texture[10])
+        //        Animation.Texture = this.Texture[10];
 
-            if (Animation.Frames != 3)
-                Animation.Frames = 3;
+        //    if (Animation.Frames != 3)
+        //        Animation.Frames = 3;
 
-            if (Animation.TimeFrame != 0.125F)
-                Animation.TimeFrame = 0.125F;
-        }
+        //    if (Animation.TimeFrame != 0.125F)
+        //        Animation.TimeFrame = 0.125F;
+        //}
 
 
         
@@ -734,31 +740,33 @@ namespace South_Park
         /// </summary>
         protected override void LoadContent()
         {
-            Texture.Add(0, Game.Content.Load<Texture2D>("Картман/Movement/Down"));
-            Texture.Add(1, Game.Content.Load<Texture2D>("Картман/Movement/Up"));
-            Texture.Add(2, Game.Content.Load<Texture2D>("Картман/Movement/Left"));
-            Texture.Add(3, Game.Content.Load<Texture2D>("Картман/Movement/Right"));
-            Texture.Add(4, Game.Content.Load<Texture2D>("Картман/Stopped/Stopped"));
+            TextureMovement.Add(0, Game.Content.Load<Texture2D>("CartmanContent/Movement/Down"));
+            TextureMovement.Add(1, Game.Content.Load<Texture2D>("CartmanContent/Movement/Up"));
+            TextureMovement.Add(2, Game.Content.Load<Texture2D>("CartmanContent/Movement/Left"));
+            TextureMovement.Add(3, Game.Content.Load<Texture2D>("CartmanContent/Movement/Right"));
+            TextureMovement.Add(4, Game.Content.Load<Texture2D>("CartmanContent/Stopped/StoppedGood"));
+            TextureMovement.Add(5, Game.Content.Load<Texture2D>("CartmanContent/Stopped/StoppedNormal"));
+            TextureMovement.Add(6, Game.Content.Load<Texture2D>("CartmanContent/Stopped/StoppedBad"));
 
-            Texture.Add(6, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog1"));
-            Texture.Add(7, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog2"));
-            Texture.Add(8, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog3"));
-            Texture.Add(9, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog4"));
-            Texture.Add(10, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog5"));
-            Texture.Add(11, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog6"));
-            Texture.Add(12, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog7"));
-            Texture.Add(13, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog8"));
-            Texture.Add(14, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog9"));
-            Texture.Add(15, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog10"));
-            Texture.Add(16, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog11_1"));
-            Texture.Add(17, Game.Content.Load<Texture2D>("Картман/Разговоры/Dialog11_2"));
+            //Texture.Add(6, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog1"));
+            //Texture.Add(7, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog2"));
+            //Texture.Add(8, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog3"));
+            //Texture.Add(9, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog4"));
+            //Texture.Add(10, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog5"));
+            //Texture.Add(11, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog6"));
+            //Texture.Add(12, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog7"));
+            //Texture.Add(13, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog8"));
+            //Texture.Add(14, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog9"));
+            //Texture.Add(15, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog10"));
+            //Texture.Add(16, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog11_1"));
+            //Texture.Add(17, Game.Content.Load<Texture2D>("CartmanContent/Разговоры/Dialog11_2"));
 
 
 
-            Texture.Add(30, Game.Content.Load<Texture2D>("Картман/Действия/Surprise"));
-            Texture.Add(31, Game.Content.Load<Texture2D>("Картман/Действия/Turns/Left"));
-            Texture.Add(32, Game.Content.Load<Texture2D>("Картман/Действия/Turns/Right"));
-            Texture.Add(33, Game.Content.Load<Texture2D>("Картман/Действия/Dead"));
+            //Texture.Add(30, Game.Content.Load<Texture2D>("CartmanContent/Действия/Surprise"));
+            //Texture.Add(31, Game.Content.Load<Texture2D>("CartmanContent/Действия/Turns/Left"));
+            //Texture.Add(32, Game.Content.Load<Texture2D>("CartmanContent/Действия/Turns/Right"));
+            //Texture.Add(33, Game.Content.Load<Texture2D>("CartmanContent/Действия/Dead"));
 
 
           //  this.Texture[8] = Game.Content.Load<Texture2D>("Картман/Действия/Throws/ThrowToTheLeft");
@@ -768,7 +776,7 @@ namespace South_Park
           //  this.Texture[11] = Game.Content.Load<Texture2D>("Картман/Действия/Turns/TurnToTheLeft");
            // this.Texture[12] = Game.Content.Load<Texture2D>("Картман/Действия/Turns/TurnToTheRight");
 
-            this.Texture[23] = Game.Content.Load<Texture2D>("Картман/Действия/Inactivity");
+           // this.Texture[23] = Game.Content.Load<Texture2D>("CartmanContent/Действия/Inactivity");
 
 
             SoundEffect[0] = Game.Content.Load<SoundEffect>("Звуки/Картман/CartmanSound01");
@@ -822,16 +830,15 @@ namespace South_Park
                     if (Keyboard.GetState().IsKeyDown(Keys.Right) && (Keyboard.GetState().IsKeyDown(Keys.Up)
                         || Keyboard.GetState().IsKeyDown(Keys.Down)))
                         this.RightUpDownMove(Keyboard.GetState());
-                    else
-                        Movement[this.KeyIsPressed(Keyboard.GetState())]();
-
+                    else Movement[this.KeyIsPressed(Keyboard.GetState())]();
+                        
                 HealthIndicator.Location = this.Location;
             }
-            else
-            {
-                if ((_DeadTimer >= 0) && (_DeadTimer <= 501)) this.Dead();
-                else _DeadTimer = 0;
-            }
+          //  else
+           // {
+              //  if ((_DeadTimer >= 0) && (_DeadTimer <= 501)) this.Dead();
+              //  else _DeadTimer = 0;
+           // }
 
             #endregion
 
@@ -931,6 +938,6 @@ namespace South_Park
             base.Draw(gameTime);
         }
 
-        #endregion
+      //  #endregion
     }
 }

@@ -2,31 +2,31 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Картман\Разговоры\Dialog1.png</Source>
-      <Name>Картман\Разговоры\Dialog1</Name>
+      <Source>CartmanContent\Разговоры\Dialog1.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog1.xnb</Output>
-      <Time>2012-06-30T15:02:22.2581286+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog1.xnb</Output>
+      <Time>2012-06-30T15:02:24+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Movement\Left.png</Source>
-      <Name>Картман\Movement\Left</Name>
+      <Source>CartmanContent\Movement\Left.png</Source>
+      <Name>CartmanContent\Movement\Left</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Left.xnb</Output>
-      <Time>2012-07-07T13:50:09.5155733+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Movement\Left.xnb</Output>
+      <Time>2012-07-07T13:50:10+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Movement\Right.png</Source>
-      <Name>Картман\Movement\Right</Name>
+      <Source>CartmanContent\Movement\Right.png</Source>
+      <Name>CartmanContent\Movement\Right</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Right.xnb</Output>
-      <Time>2012-07-07T13:59:50.9418289+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Movement\Right.xnb</Output>
+      <Time>2012-07-07T13:59:52+04:00</Time>
     </Item>
     <Item>
       <Source>Анимация\TestBackground.png</Source>
@@ -35,61 +35,43 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\TestBackground.xnb</Output>
-      <Time>2012-07-08T16:36:08.3935896+04:00</Time>
+      <Time>2012-07-08T16:36:10+04:00</Time>
     </Item>
     <Item>
-      <Source>Интерфейс\Картман\InterfaceCartman03.png</Source>
-      <Name>Интерфейс\Картман\InterfaceCartman03</Name>
+      <Source>InterfaceContent\City.png</Source>
+      <Name>InterfaceContent\City</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman03.xnb</Output>
-      <Time>2012-07-17T18:40:00.8848953+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\City.xnb</Output>
+      <Time>2012-07-17T19:29:42+04:00</Time>
     </Item>
     <Item>
-      <Source>Интерфейс\Interface02.png</Source>
-      <Name>Интерфейс\Interface02</Name>
+      <Source>CartmanContent\Действия\Dead.png</Source>
+      <Name>CartmanContent\Действия\Dead</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Interface02.xnb</Output>
-      <Time>2012-07-17T19:29:40.6332975+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Dead.xnb</Output>
+      <Time>2012-07-18T15:39:30+04:00</Time>
     </Item>
     <Item>
-      <Source>Интерфейс\Interface03.png</Source>
-      <Name>Интерфейс\Interface03</Name>
+      <Source>CartmanContent\Разговоры\Dialog2.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Interface03.xnb</Output>
-      <Time>2012-07-18T00:00:19.7836706+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog2.xnb</Output>
+      <Time>2012-07-18T16:07:56+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Dead.png</Source>
-      <Name>Картман\Действия\Dead</Name>
+      <Source>CartmanContent\Действия\Surprise.png</Source>
+      <Name>CartmanContent\Действия\Surprise</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Dead.xnb</Output>
-      <Time>2012-07-18T15:39:29.1075354+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Картман\Разговоры\Dialog2.png</Source>
-      <Name>Картман\Разговоры\Dialog2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog2.xnb</Output>
-      <Time>2012-07-18T16:07:55.6490717+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Картман\Действия\Surprise.png</Source>
-      <Name>Картман\Действия\Surprise</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Surprise.xnb</Output>
-      <Time>2012-07-19T16:37:15.8375536+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Surprise.xnb</Output>
+      <Time>2012-07-19T16:37:16+04:00</Time>
     </Item>
     <Item>
       <Source>Анимация\Башни\Башня1\Tawer1Level1.png</Source>
@@ -98,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Tawer1Level1.xnb</Output>
-      <Time>2012-07-21T13:14:23.5125813+04:00</Time>
+      <Time>2012-07-21T13:14:24+04:00</Time>
     </Item>
     <Item>
       <Source>Анимация\Башни\Башня1\Wave.png</Source>
@@ -107,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Wave.xnb</Output>
-      <Time>2012-07-21T16:57:41.9539114+04:00</Time>
+      <Time>2012-07-21T16:57:42+04:00</Time>
     </Item>
     <Item>
       <Source>Анимация\Snowball.png</Source>
@@ -116,43 +98,34 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Snowball.xnb</Output>
-      <Time>2012-07-23T14:16:07.2665084+04:00</Time>
+      <Time>2012-07-23T14:16:08+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Throws\ThrowToTheLeft.png</Source>
-      <Name>Картман\Действия\Throws\ThrowToTheLeft</Name>
+      <Source>CartmanContent\Действия\Throws\ThrowToTheLeft.png</Source>
+      <Name>CartmanContent\Действия\Throws\ThrowToTheLeft</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheLeft.xnb</Output>
-      <Time>2012-07-25T14:22:40.4627836+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Throws\ThrowToTheLeft.xnb</Output>
+      <Time>2012-07-25T14:22:42+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Throws\ThrowToTheRight.png</Source>
-      <Name>Картман\Действия\Throws\ThrowToTheRight</Name>
+      <Source>CartmanContent\Действия\Throws\ThrowToTheRight.png</Source>
+      <Name>CartmanContent\Действия\Throws\ThrowToTheRight</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheRight.xnb</Output>
-      <Time>2012-07-25T14:40:58.7987109+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Throws\ThrowToTheRight.xnb</Output>
+      <Time>2012-07-25T14:41:00+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Throws\ThrowToTheDown.png</Source>
-      <Name>Картман\Действия\Throws\ThrowToTheDown</Name>
+      <Source>CartmanContent\Действия\Throws\ThrowToTheDown.png</Source>
+      <Name>CartmanContent\Действия\Throws\ThrowToTheDown</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Throws\ThrowToTheDown.xnb</Output>
-      <Time>2012-07-25T15:14:34.1251803+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Интерфейс\Картман\InterfaceCartman02.png</Source>
-      <Name>Интерфейс\Картман\InterfaceCartman02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman02.xnb</Output>
-      <Time>2012-07-26T13:21:56.8070298+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Throws\ThrowToTheDown.xnb</Output>
+      <Time>2012-07-25T15:14:36+04:00</Time>
     </Item>
     <Item>
       <Source>Облака\Clouds.png</Source>
@@ -161,16 +134,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Облака\Clouds.xnb</Output>
-      <Time>2012-07-28T15:22:36.8592715+04:00</Time>
+      <Time>2012-07-28T15:22:38+04:00</Time>
     </Item>
     <Item>
-      <Source>Интерфейс\Money.png</Source>
-      <Name>Интерфейс\Money</Name>
+      <Source>InterfaceContent\Money.png</Source>
+      <Name>InterfaceContent\Money</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Money.xnb</Output>
-      <Time>2012-09-25T22:28:49.1235841+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Money.xnb</Output>
+      <Time>2012-09-25T22:28:50+04:00</Time>
     </Item>
     <Item>
       <Source>Камни\Stones.png</Source>
@@ -179,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Камни\Stones.xnb</Output>
-      <Time>2012-07-28T16:05:09.898297+04:00</Time>
+      <Time>2012-07-28T16:05:10+04:00</Time>
     </Item>
     <Item>
       <Source>Arrow\Arrow.png</Source>
@@ -188,43 +161,43 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Arrow\Arrow.xnb</Output>
-      <Time>2012-08-03T12:44:17.9173177+04:00</Time>
+      <Time>2012-08-03T12:44:18+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog3.png</Source>
-      <Name>Картман\Разговоры\Dialog3</Name>
+      <Source>CartmanContent\Разговоры\Dialog3.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog3.xnb</Output>
-      <Time>2012-08-07T13:52:39.972313+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog3.xnb</Output>
+      <Time>2012-08-07T13:52:40+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog4.png</Source>
-      <Name>Картман\Разговоры\Dialog4</Name>
+      <Source>CartmanContent\Разговоры\Dialog4.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog4</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog4.xnb</Output>
-      <Time>2012-08-07T13:52:39.982313+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog4.xnb</Output>
+      <Time>2012-08-07T13:52:40+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog5.png</Source>
-      <Name>Картман\Разговоры\Dialog5</Name>
+      <Source>CartmanContent\Разговоры\Dialog5.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog5</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog5.xnb</Output>
-      <Time>2012-08-07T13:52:39.982313+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog5.xnb</Output>
+      <Time>2012-08-07T13:52:40+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog6.png</Source>
-      <Name>Картман\Разговоры\Dialog6</Name>
+      <Source>CartmanContent\Разговоры\Dialog6.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog6</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog6.xnb</Output>
-      <Time>2012-08-08T14:57:54.4238615+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog6.xnb</Output>
+      <Time>2012-08-08T14:57:56+04:00</Time>
     </Item>
     <Item>
       <Source>Круги\Bubble1.png</Source>
@@ -233,16 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Круги\Bubble1.xnb</Output>
-      <Time>2012-08-09T14:32:12.444998+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Интерфейс\Alert.png</Source>
-      <Name>Интерфейс\Alert</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Alert.xnb</Output>
-      <Time>2012-08-09T20:00:43.4608321+04:00</Time>
+      <Time>2012-08-09T14:32:14+04:00</Time>
     </Item>
     <Item>
       <Source>Анимация\Башни\Башня1\Tawer1Level2.png</Source>
@@ -251,61 +215,61 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Анимация\Башни\Башня1\Tawer1Level2.xnb</Output>
-      <Time>2012-08-10T15:23:36.5004255+04:00</Time>
+      <Time>2012-08-10T15:23:38+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog7.png</Source>
-      <Name>Картман\Разговоры\Dialog7</Name>
+      <Source>CartmanContent\Разговоры\Dialog7.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog7</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog7.xnb</Output>
-      <Time>2012-08-12T14:30:30.8831943+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog7.xnb</Output>
+      <Time>2012-08-12T14:30:32+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog8.png</Source>
-      <Name>Картман\Разговоры\Dialog8</Name>
+      <Source>CartmanContent\Разговоры\Dialog8.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog8</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog8.xnb</Output>
-      <Time>2012-08-12T14:57:06.774149+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog8.xnb</Output>
+      <Time>2012-08-12T14:57:08+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog9.png</Source>
-      <Name>Картман\Разговоры\Dialog9</Name>
+      <Source>CartmanContent\Разговоры\Dialog9.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog9</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog9.xnb</Output>
-      <Time>2012-08-12T15:39:34.6747858+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog9.xnb</Output>
+      <Time>2012-08-12T15:39:36+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog10.png</Source>
-      <Name>Картман\Разговоры\Dialog10</Name>
+      <Source>CartmanContent\Разговоры\Dialog10.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog10</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog10.xnb</Output>
-      <Time>2012-08-21T20:09:12.9811011+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog10.xnb</Output>
+      <Time>2012-08-21T20:09:14+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog11_1.png</Source>
-      <Name>Картман\Разговоры\Dialog11_1</Name>
+      <Source>CartmanContent\Разговоры\Dialog11_1.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog11_1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog11_1.xnb</Output>
-      <Time>2012-08-21T20:35:21.3492691+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog11_1.xnb</Output>
+      <Time>2012-08-21T20:35:22+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Разговоры\Dialog11_2.png</Source>
-      <Name>Картман\Разговоры\Dialog11_2</Name>
+      <Source>CartmanContent\Разговоры\Dialog11_2.png</Source>
+      <Name>CartmanContent\Разговоры\Dialog11_2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog11_2.xnb</Output>
-      <Time>2012-08-21T20:35:21.3562695+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog11_2.xnb</Output>
+      <Time>2012-08-21T20:35:22+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartDown.png</Source>
@@ -314,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartDown.xnb</Output>
-      <Time>2012-08-24T14:17:01.0619812+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartLeft.png</Source>
@@ -323,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeft.xnb</Output>
-      <Time>2012-08-24T14:17:01.0719812+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartLeftDown.png</Source>
@@ -332,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeftDown.xnb</Output>
-      <Time>2012-08-24T14:17:01.0819812+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartLeftUp.png</Source>
@@ -341,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartLeftUp.xnb</Output>
-      <Time>2012-08-24T14:17:01.1319813+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartRight.png</Source>
@@ -350,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRight.xnb</Output>
-      <Time>2012-08-24T14:17:01.1419813+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartRightDown.png</Source>
@@ -359,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRightDown.xnb</Output>
-      <Time>2012-08-24T14:17:01.1519813+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartRightUp.png</Source>
@@ -368,7 +332,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartRightUp.xnb</Output>
-      <Time>2012-08-24T14:17:01.1519813+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\IndexStart\IndexStartUp.png</Source>
@@ -377,7 +341,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartUp.xnb</Output>
-      <Time>2012-08-24T14:17:01.1619813+04:00</Time>
+      <Time>2012-08-24T14:17:02+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\CartmanHouse\CartmanHouse.png</Source>
@@ -386,7 +350,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\CartmanHouse\CartmanHouse.xnb</Output>
-      <Time>2012-08-26T14:03:55.1732958+04:00</Time>
+      <Time>2012-08-26T14:03:56+04:00</Time>
     </Item>
     <Item>
       <Source>Levels\Index\1.png</Source>
@@ -395,7 +359,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\1.xnb</Output>
-      <Time>2012-08-26T13:54:17.3778926+04:00</Time>
+      <Time>2012-08-26T13:54:18+04:00</Time>
     </Item>
     <Item>
       <Source>Enemies\Aliens\MoveDown\MoveDown.png</Source>
@@ -404,7 +368,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveDown\MoveDown.xnb</Output>
-      <Time>2012-08-27T12:33:26.3790588+04:00</Time>
+      <Time>2012-08-27T12:33:28+04:00</Time>
     </Item>
     <Item>
       <Source>Enemies\Aliens\MoveRight\MoveRight.png</Source>
@@ -413,61 +377,61 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveRight\MoveRight.xnb</Output>
-      <Time>2012-08-27T12:39:56.1712976+04:00</Time>
+      <Time>2012-08-27T12:39:58+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Inactivity.png</Source>
-      <Name>Картман\Действия\Inactivity</Name>
+      <Source>CartmanContent\Действия\Inactivity.png</Source>
+      <Name>CartmanContent\Действия\Inactivity</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Inactivity.xnb</Output>
-      <Time>2012-08-28T12:41:51.9131065+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Inactivity.xnb</Output>
+      <Time>2012-08-28T12:41:52+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Stopped\Stopped.png</Source>
-      <Name>Картман\Stopped\Stopped</Name>
+      <Source>CartmanContent\Stopped\StoppedGood.png</Source>
+      <Name>CartmanContent\Stopped\StoppedGood</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Stopped\Stopped.xnb</Output>
-      <Time>2012-08-28T18:41:41.6909175+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Stopped\StoppedGood.xnb</Output>
+      <Time>2012-08-28T18:41:42+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Movement\Down.png</Source>
-      <Name>Картман\Movement\Down</Name>
+      <Source>CartmanContent\Movement\Down.png</Source>
+      <Name>CartmanContent\Movement\Down</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Down.xnb</Output>
-      <Time>2012-08-28T18:49:59.0667426+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Movement\Down.xnb</Output>
+      <Time>2012-08-28T18:50:00+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Movement\Up.png</Source>
-      <Name>Картман\Movement\Up</Name>
+      <Source>CartmanContent\Movement\Up.png</Source>
+      <Name>CartmanContent\Movement\Up</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Up.xnb</Output>
-      <Time>2012-08-28T18:59:31.0177876+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Movement\Up.xnb</Output>
+      <Time>2012-08-28T18:59:32+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Turns\Left.png</Source>
-      <Name>Картман\Действия\Turns\Left</Name>
+      <Source>CartmanContent\Действия\Turns\Left.png</Source>
+      <Name>CartmanContent\Действия\Turns\Left</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Turns\Left.xnb</Output>
-      <Time>2012-08-28T19:31:43.909394+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Turns\Left.xnb</Output>
+      <Time>2012-08-28T19:31:44+04:00</Time>
     </Item>
     <Item>
-      <Source>Картман\Действия\Turns\Right.png</Source>
-      <Name>Картман\Действия\Turns\Right</Name>
+      <Source>CartmanContent\Действия\Turns\Right.png</Source>
+      <Name>CartmanContent\Действия\Turns\Right</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Действия\Turns\Right.xnb</Output>
-      <Time>2012-08-28T19:45:19.3221735+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Действия\Turns\Right.xnb</Output>
+      <Time>2012-08-28T19:45:20+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth01.png</Source>
@@ -476,7 +440,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth01.xnb</Output>
-      <Time>2012-09-07T17:36:30.595395+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth02.png</Source>
@@ -485,7 +449,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth02.xnb</Output>
-      <Time>2012-09-07T17:36:30.610995+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth03.png</Source>
@@ -494,7 +458,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth03.xnb</Output>
-      <Time>2012-09-07T17:36:30.610995+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth04.png</Source>
@@ -503,7 +467,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth04.xnb</Output>
-      <Time>2012-09-07T17:36:30.610995+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth05.png</Source>
@@ -512,7 +476,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth05.xnb</Output>
-      <Time>2012-09-07T17:36:30.6265951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth06.png</Source>
@@ -521,7 +485,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth06.xnb</Output>
-      <Time>2012-09-07T17:36:30.6265951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth07.png</Source>
@@ -530,7 +494,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth07.xnb</Output>
-      <Time>2012-09-07T17:36:30.6421951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth08.png</Source>
@@ -539,7 +503,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth08.xnb</Output>
-      <Time>2012-09-07T17:36:30.6421951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth09.png</Source>
@@ -548,7 +512,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth09.xnb</Output>
-      <Time>2012-09-07T17:36:30.6421951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth10.png</Source>
@@ -557,7 +521,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth10.xnb</Output>
-      <Time>2012-09-07T17:36:30.6577951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth11.png</Source>
@@ -566,7 +530,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth11.xnb</Output>
-      <Time>2012-09-07T17:36:30.6577951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth12.png</Source>
@@ -575,7 +539,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth12.xnb</Output>
-      <Time>2012-09-07T17:36:30.6577951+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth13.png</Source>
@@ -584,7 +548,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth13.xnb</Output>
-      <Time>2012-09-07T17:36:30.6733952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth14.png</Source>
@@ -593,7 +557,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth14.xnb</Output>
-      <Time>2012-09-07T17:36:30.6733952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth15.png</Source>
@@ -602,7 +566,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth15.xnb</Output>
-      <Time>2012-09-07T17:36:30.6733952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth16.png</Source>
@@ -611,7 +575,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth16.xnb</Output>
-      <Time>2012-09-07T17:36:30.6889952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth17.png</Source>
@@ -620,7 +584,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth17.xnb</Output>
-      <Time>2012-09-07T17:36:30.6889952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth18.png</Source>
@@ -629,7 +593,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth18.xnb</Output>
-      <Time>2012-09-07T17:36:30.7045952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth19.png</Source>
@@ -638,7 +602,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth19.xnb</Output>
-      <Time>2012-09-07T17:36:30.7045952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>HealthIndicator\BarHealth20.png</Source>
@@ -647,7 +611,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth20.xnb</Output>
-      <Time>2012-09-07T17:36:30.7045952+04:00</Time>
+      <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
       <Source>Enemies\Homeless\MoveDown\MoveDown.png</Source>
@@ -656,7 +620,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveDown\MoveDown.xnb</Output>
-      <Time>2012-09-17T18:28:04.4242817+04:00</Time>
+      <Time>2012-09-17T18:28:06+04:00</Time>
     </Item>
     <Item>
       <Source>Enemies\Homeless\MoveUp\MoveUp.png</Source>
@@ -665,7 +629,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveUp\MoveUp.xnb</Output>
-      <Time>2012-09-17T18:28:04.4398818+04:00</Time>
+      <Time>2012-09-17T18:28:06+04:00</Time>
     </Item>
     <Item>
       <Source>Enemies\Homeless\MoveRight\MoveRight.png</Source>
@@ -674,7 +638,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveRight\MoveRight.xnb</Output>
-      <Time>2012-09-17T18:28:04.4398818+04:00</Time>
+      <Time>2012-09-17T18:28:06+04:00</Time>
     </Item>
     <Item>
       <Source>Enemies\Homeless\MoveLeft\MoveLeft.png</Source>
@@ -683,25 +647,79 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveLeft\MoveLeft.xnb</Output>
-      <Time>2012-09-17T18:28:04.4554818+04:00</Time>
+      <Time>2012-09-17T18:28:06+04:00</Time>
     </Item>
     <Item>
-      <Source>Интерфейс\Картман\InterfaceCartman01.png</Source>
-      <Name>Интерфейс\Картман\InterfaceCartman01</Name>
+      <Source>CartmanContent\Stopped\StoppedBad.png</Source>
+      <Name>CartmanContent\Stopped\StoppedBad</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Картман\InterfaceCartman01.xnb</Output>
-      <Time>2012-09-24T10:57:49.1287834+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Stopped\StoppedBad.xnb</Output>
+      <Time>2012-10-18T23:26:02+04:00</Time>
     </Item>
     <Item>
-      <Source>Интерфейс\Panel.png</Source>
-      <Name>Интерфейс\Panel</Name>
+      <Source>CartmanContent\Stopped\StoppedNormal.png</Source>
+      <Name>CartmanContent\Stopped\StoppedNormal</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Panel.xnb</Output>
-      <Time>2012-09-25T21:15:26.7441248+04:00</Time>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Stopped\StoppedNormal.xnb</Output>
+      <Time>2012-10-18T23:47:18+04:00</Time>
+    </Item>
+    <Item>
+      <Source>InterfaceContent\Alert\InterfaceAlert.png</Source>
+      <Name>InterfaceContent\Alert\InterfaceAlert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Alert\InterfaceAlert.xnb</Output>
+      <Time>2012-10-19T00:40:00+04:00</Time>
+    </Item>
+    <Item>
+      <Source>InterfaceContent\Tawer.png</Source>
+      <Name>InterfaceContent\Tawer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Tawer.xnb</Output>
+      <Time>2012-10-20T23:10:28+04:00</Time>
+    </Item>
+    <Item>
+      <Source>InterfaceContent\Panel.png</Source>
+      <Name>InterfaceContent\Panel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Panel.xnb</Output>
+      <Time>2012-10-21T18:50:06+04:00</Time>
+    </Item>
+    <Item>
+      <Source>InterfaceContent\CartmanInterfaceContent\Icons\IconBad.png</Source>
+      <Name>InterfaceContent\CartmanInterfaceContent\Icons\IconBad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconBad.xnb</Output>
+      <Time>2012-10-21T19:29:02+04:00</Time>
+    </Item>
+    <Item>
+      <Source>InterfaceContent\CartmanInterfaceContent\Icons\IconGood.png</Source>
+      <Name>InterfaceContent\CartmanInterfaceContent\Icons\IconGood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconGood.xnb</Output>
+      <Time>2012-10-21T19:29:02+04:00</Time>
+    </Item>
+    <Item>
+      <Source>InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.png</Source>
+      <Name>InterfaceContent\CartmanInterfaceContent\Icons\IconNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.xnb</Output>
+      <Time>2012-10-21T19:29:02+04:00</Time>
     </Item>
     <Item>
       <Source>MySpriteFont.spritefont</Source>
@@ -710,7 +728,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\MySpriteFont.xnb</Output>
-      <Time>2012-09-01T21:41:51.2172491+04:00</Time>
+      <Time>2012-09-01T21:41:52+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound01.wma</Source>
@@ -719,7 +737,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound01.xnb</Output>
-      <Time>2012-08-08T13:22:19.4737618+04:00</Time>
+      <Time>2012-08-08T13:22:20+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound02.wma</Source>
@@ -728,7 +746,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound02.xnb</Output>
-      <Time>2012-08-08T13:37:48.9318713+04:00</Time>
+      <Time>2012-08-08T13:37:50+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound03.wma</Source>
@@ -737,7 +755,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound03.xnb</Output>
-      <Time>2012-08-08T14:21:24.2315897+04:00</Time>
+      <Time>2012-08-08T14:21:26+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound04.wma</Source>
@@ -746,7 +764,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound04.xnb</Output>
-      <Time>2012-08-08T14:40:30.0591273+04:00</Time>
+      <Time>2012-08-08T14:40:32+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound05.wma</Source>
@@ -755,7 +773,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound05.xnb</Output>
-      <Time>2012-08-10T00:42:28.7152275+04:00</Time>
+      <Time>2012-08-10T00:42:30+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound07.wma</Source>
@@ -764,7 +782,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound07.xnb</Output>
-      <Time>2012-08-10T13:17:40.4130902+04:00</Time>
+      <Time>2012-08-10T13:17:42+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound09.wma</Source>
@@ -773,7 +791,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound09.xnb</Output>
-      <Time>2012-08-12T14:20:14.5972255+04:00</Time>
+      <Time>2012-08-12T14:20:16+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound06.wma</Source>
@@ -782,7 +800,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound06.xnb</Output>
-      <Time>2012-08-12T14:54:18.4326017+04:00</Time>
+      <Time>2012-08-12T14:54:20+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound11.wma</Source>
@@ -791,7 +809,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound11.xnb</Output>
-      <Time>2012-08-12T15:41:06.0500122+04:00</Time>
+      <Time>2012-08-12T15:41:08+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound12.wma</Source>
@@ -800,7 +818,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound12.xnb</Output>
-      <Time>2012-08-12T15:55:55.7499001+04:00</Time>
+      <Time>2012-08-12T15:55:56+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Уровни\StartLevel.wma</Source>
@@ -809,7 +827,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Уровни\StartLevel.xnb</Output>
-      <Time>2012-08-12T16:51:33.8140603+04:00</Time>
+      <Time>2012-08-12T16:51:34+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound13.wma</Source>
@@ -818,7 +836,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound13.xnb</Output>
-      <Time>2012-08-14T18:07:30.2262582+04:00</Time>
+      <Time>2012-08-14T18:07:32+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound14.wma</Source>
@@ -827,7 +845,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound14.xnb</Output>
-      <Time>2012-08-21T20:11:55.1178623+04:00</Time>
+      <Time>2012-08-21T20:11:56+04:00</Time>
     </Item>
     <Item>
       <Source>Звуки\Картман\CartmanSound15.wma</Source>
@@ -836,7 +854,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound15.xnb</Output>
-      <Time>2012-08-21T20:39:11.0124051+04:00</Time>
+      <Time>2012-08-21T20:39:12+04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -102,7 +102,6 @@ C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\
 C:\Users\Lamborgini\documents\visual studio 2010\Projects\South Park\South Park\South Park\bin\x86\Debug\Content\Интерфейс\Panel.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\South Park.exe
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\South Park.pdb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Южный парк\Title\Title.sou
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Разговоры\Dialog1.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Left.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Картман\Movement\Right.xnb
@@ -202,3 +201,6 @@ C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\South Par
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\South Park.pdb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\South_Park.South_Park.Title.rTitle.resources

@@ -35,16 +35,10 @@ namespace South_Park
 
             this.IsMouseVisible = true;
 
-          //  XmlReader Xml = XmlReader.Create("C:/Users/Lamborgini/documents/visual studio 2010/Projects/South Park/South Park/South Park/ёжный парк/Title/Title.sou");
 
-          //  while (Xml.Read())
-          //  {
-         //       if (Xml.NodeType == XmlNodeType.Text)
-         //       {
-         //           Title.Add(Xml.Value);
-         //           Title.TrimExcess();
-         //       }
-         //   }
+            Title.Add(South_Park.Title.rTitle.Str0 );
+                   
+          
 
 
 

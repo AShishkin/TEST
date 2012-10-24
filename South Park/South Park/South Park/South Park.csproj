@@ -114,6 +114,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="South Park\CheckPoints\ManagerCheckPoints\ManagerCheckPoints.cs" />
+    <Compile Include="South Park\City\City.cs" />
+    <Compile Include="South Park\Enemies\ManagerEnemies\EnemiesCounter.cs" />
+    <Compile Include="South Park\Enemies\Gingers\Gingers.cs" />
     <Compile Include="South Park\Enemies\ManagerEnemies\ManagerEnemies.cs" />
     <Compile Include="South Park\Game map\ManagerCollision.cs" />
     <Compile Include="South Park\Game map\ManagerDrawingInterface.cs" />
@@ -125,8 +128,6 @@
     </Compile>
     <Compile Include="South Park\CheckPoints\CheckPointMove.cs" />
     <Compile Include="South Park\Continuum\Continuum.cs" />
-    <Compile Include="South Park\Enemies\Aliens\Aliens.cs" />
-    <Compile Include="South Park\Enemies\Homeless\Homeless.cs" />
     <Compile Include="South Park\Enemies\IEnemie.cs" />
     <Compile Include="South Park\FPS.cs" />
     <Compile Include="South Park\HealthIndicator\HealthIndicator.cs" />

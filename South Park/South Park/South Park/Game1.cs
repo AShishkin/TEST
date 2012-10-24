@@ -46,8 +46,6 @@ namespace South_Park
 
             Content.RootDirectory = "Content";
 
-          //  BWriter = new BinaryWriter(new FileStream("C:/Users/Lamborgini/documents/visual studio 2010/Projects/South Park/South Park/South ParkContent/Title/Title.sp",FileMode.Create));
-          //  BReader = new BinaryReader(new FileStream("C:/Users/Lamborgini/documents/visual studio 2010/Projects/South Park/South Park/South ParkContent/Title/Title.sp", FileMode.Open));
 
             this.HeadingName();
 
@@ -75,7 +73,7 @@ namespace South_Park
         {
             Map = new Level(this);
             FramePerSeconds = new FPS(this);
-
+            this.graphics.PreferMultiSampling = true;
             base.Initialize();
         }
 
@@ -124,7 +122,6 @@ namespace South_Park
             spriteBatch.DrawString(SGC, "Location                    " + Map.Cartman.Location, new Vector2(0, 140), Color.Blue);
             spriteBatch.DrawString(SGC, "ElapsedGameTime     " + gameTime.ElapsedGameTime.Milliseconds, new Vector2(0, 160), Color.Blue);
             spriteBatch.DrawString(SGC, "TotalMemory            " + GC.GetTotalMemory(false) / 1024 + " kb", new Vector2(0, 180), Color.Blue);
-            spriteBatch.DrawString(SGC, "===           " + System.Windows.Forms.Border3DStyle.Bump , new Vector2(0, 200), Color.Blue);
             spriteBatch.End();
 
 

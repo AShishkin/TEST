@@ -11,7 +11,7 @@ namespace South_Park
 {
     class Level : DrawableGameComponent
     {
-        private static System.Random RSpeed;
+        private static System.Random Random;
         private SpriteBatch SpriteBatch;
         private SpriteFont SpriteFont;
 
@@ -21,7 +21,8 @@ namespace South_Park
 
       //  private ObjectPool<Aliens> Aliens;
 
-        private ObjectPool<Homeless> OPHomeless;
+
+        private ObjectPool<Gingers> OPGingers;
 
         private Updater Updater;
 
@@ -29,7 +30,8 @@ namespace South_Park
         public Arrow Arrow;
         public Bubble Bubble;
         private Money Money;
-
+        private City SPCity;
+        private EnemiesCounter ECounter;
         
 
         private CheckPointStart[] CheckPointsStart;
@@ -73,7 +75,7 @@ namespace South_Park
         {
             SpriteBatch = new SpriteBatch(Game.GraphicsDevice);
             SpriteFont = Game.Content.Load<SpriteFont>("MySpriteFont");
-            RSpeed = new System.Random(System.DateTime.Now.Millisecond);
+            Random = new System.Random(System.DateTime.Now.Millisecond);
             SoundEffect = new SoundEffect[10];
             this.Fon = new Texture2D[10];
 
@@ -99,7 +101,9 @@ namespace South_Park
             Snowballs = new ObjectPool<Snowball>();
 
           //  Aliens = new ObjectPool<Aliens>();
-            OPHomeless = new ObjectPool<Homeless>();
+           // OPHomeless = new ObjectPool<Homeless>();
+            OPGingers = new ObjectPool<Gingers>();
+
             Money = new Money(100);
             
 
@@ -107,8 +111,8 @@ namespace South_Park
 
             Arrow = new Arrow(Game);
             Bubble = new Bubble(Game);
-
-            
+            SPCity = new City(100);
+            ECounter = new EnemiesCounter(0);
 
 
             CheckPointsStart = new CheckPointStart[4];
@@ -197,8 +201,15 @@ namespace South_Park
             }
 
            // for (int i = 0; i < 1; i++)
-                OPHomeless.Add((Homeless)MEnemies.Construct(Game, "Homeless"));
-                OPHomeless[0].Location = new Vector2(CheckPointsStart[0].Location.X - 100, CheckPointsStart[0].Location.Y - 50);
+               // OPHomeless.Add((Homeless)MEnemies.Construct(Game, "Homeless"));
+              //  OPHomeless[0].Location = new Vector2(CheckPointsStart[0].Location.X - 100, CheckPointsStart[0].Location.Y - 50);
+
+            for (int i = 0; i < 15; i++)
+            {
+                OPGingers.Add((Gingers)MEnemies.Construct(Game, "Gingers"));
+                OPGingers[i].Location = new Vector2(CheckPointsStart[0].Location.X - i*100, CheckPointsStart[0].Location.Y - 50);
+            }
+            
 
            
         }
@@ -320,7 +331,7 @@ namespace South_Park
             for (int i = 0; i < Snowballs.Count; i++)
                 if (Snowballs[i].Enabled)
                 {
-                    Snowballs[i].Step = RSpeed.Next(5, 8);
+                    Snowballs[i].Step = Random.Next(5, 8);
                     Snowballs[i].Location = new Vector2(Location.X + 64, Location.Y + 44);
                     Snowballs[i].Enabled = false;
                     Snowballs[i].Direction = Direction;
@@ -361,25 +372,33 @@ namespace South_Park
             Cartman.Update(gameTime);
 
 
-
-            OPHomeless[0].Update(gameTime);
+            for(int i = 0; i < OPGingers.Count; i++)
+                OPGingers[i].Update(gameTime);
 
 
             for (int i = 0; i < CheckPointsMove.Length; i++)
                 if (CheckPointsMove[i] != null)
-                    MCollision.CEnemieWithIndexMove(OPHomeless[0], CheckPointsMove[i]);
+                {
+                    for (int j = 0; j < OPGingers.Count; j++)
+                    MCollision.CEnemieWithIndexMove(OPGingers[j], CheckPointsMove[i]);
+                }
 
-
-            MCollision.CEnemieWithIndexFinish(OPHomeless[0], CheckPointsFinish[0], CheckPointsStart[0]);
-            MCollision.CEnemiesWithTawerFireZone(OPHomeless[0], OPCameraTawers);
-            MCollision.CHeroWithTawer(Cartman, OPCameraTawers, Arrow, Bubble);
-            MCollision.CEnemiesWithTawer(OPHomeless[0], OPCameraTawers, Clouds, TCounter.Count);
+            for (int i = 0; i < OPGingers.Count; i++)
+            {
+                MCollision.CEnemieWithIndexFinish(OPGingers[i], CheckPointsFinish[0], CheckPointsStart[Random.Next(0, 2)]);
+                MCollision.CEnemiesWithTawerFireZone(OPGingers[i], OPCameraTawers);
+                MCollision.CHeroWithTawer(Cartman, OPCameraTawers, Arrow, Bubble);
+                MCollision.CEnemiesWithTawer(OPGingers[i], OPCameraTawers, Clouds, TCounter.Count);
+            }
             
 
 
             MDInterface.HelthIndicator = Cartman.Health;
             MDInterface.MoneyIndicator = Money.Count;
             MDInterface.CartmanContinnumIndicator = Cartman.ContinuumCount;
+            MDInterface.CityHelthIndicator = SPCity.Helth;
+            MDInterface.ECountIndicator = ECounter.Count = OPGingers.Count;
+            MDInterface.EName = OPGingers[0].Name;
 
 
 
@@ -440,8 +459,8 @@ namespace South_Park
                     CheckPointsMove[i].Draw(gameTime);
 
 
-          //  for (int i = 0; i < Homeless.Count - 1; i++)
-                OPHomeless[0].Draw(gameTime);
+            for (int i = 0; i < OPGingers.Count; i++)
+            OPGingers[i].Draw(gameTime);
 
     
 

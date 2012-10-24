@@ -38,15 +38,6 @@
       <Time>2012-07-08T16:36:10+04:00</Time>
     </Item>
     <Item>
-      <Source>InterfaceContent\City.png</Source>
-      <Name>InterfaceContent\City</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\City.xnb</Output>
-      <Time>2012-07-17T19:29:42+04:00</Time>
-    </Item>
-    <Item>
       <Source>CartmanContent\Действия\Dead.png</Source>
       <Name>CartmanContent\Действия\Dead</Name>
       <Importer>TextureImporter</Importer>
@@ -135,15 +126,6 @@
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Облака\Clouds.xnb</Output>
       <Time>2012-07-28T15:22:38+04:00</Time>
-    </Item>
-    <Item>
-      <Source>InterfaceContent\Money.png</Source>
-      <Name>InterfaceContent\Money</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Money.xnb</Output>
-      <Time>2012-09-25T22:28:50+04:00</Time>
     </Item>
     <Item>
       <Source>Камни\Stones.png</Source>
@@ -360,24 +342,6 @@
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\1.xnb</Output>
       <Time>2012-08-26T13:54:18+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Enemies\Aliens\MoveDown\MoveDown.png</Source>
-      <Name>Enemies\Aliens\MoveDown\MoveDown</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveDown\MoveDown.xnb</Output>
-      <Time>2012-08-27T12:33:28+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Enemies\Aliens\MoveRight\MoveRight.png</Source>
-      <Name>Enemies\Aliens\MoveRight\MoveRight</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveRight\MoveRight.xnb</Output>
-      <Time>2012-08-27T12:39:58+04:00</Time>
     </Item>
     <Item>
       <Source>CartmanContent\Действия\Inactivity.png</Source>
@@ -614,42 +578,6 @@
       <Time>2012-09-07T17:36:32+04:00</Time>
     </Item>
     <Item>
-      <Source>Enemies\Homeless\MoveDown\MoveDown.png</Source>
-      <Name>Enemies\Homeless\MoveDown\MoveDown</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveDown\MoveDown.xnb</Output>
-      <Time>2012-09-17T18:28:06+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Enemies\Homeless\MoveUp\MoveUp.png</Source>
-      <Name>Enemies\Homeless\MoveUp\MoveUp</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveUp\MoveUp.xnb</Output>
-      <Time>2012-09-17T18:28:06+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Enemies\Homeless\MoveRight\MoveRight.png</Source>
-      <Name>Enemies\Homeless\MoveRight\MoveRight</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveRight\MoveRight.xnb</Output>
-      <Time>2012-09-17T18:28:06+04:00</Time>
-    </Item>
-    <Item>
-      <Source>Enemies\Homeless\MoveLeft\MoveLeft.png</Source>
-      <Name>Enemies\Homeless\MoveLeft\MoveLeft</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveLeft\MoveLeft.xnb</Output>
-      <Time>2012-09-17T18:28:06+04:00</Time>
-    </Item>
-    <Item>
       <Source>CartmanContent\Stopped\StoppedBad.png</Source>
       <Name>CartmanContent\Stopped\StoppedBad</Name>
       <Importer>TextureImporter</Importer>
@@ -677,49 +605,13 @@
       <Time>2012-10-19T00:40:00+04:00</Time>
     </Item>
     <Item>
-      <Source>InterfaceContent\Tawer.png</Source>
-      <Name>InterfaceContent\Tawer</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Tawer.xnb</Output>
-      <Time>2012-10-20T23:10:28+04:00</Time>
-    </Item>
-    <Item>
       <Source>InterfaceContent\Panel.png</Source>
       <Name>InterfaceContent\Panel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Panel.xnb</Output>
-      <Time>2012-10-21T18:50:06+04:00</Time>
-    </Item>
-    <Item>
-      <Source>InterfaceContent\CartmanInterfaceContent\Icons\IconBad.png</Source>
-      <Name>InterfaceContent\CartmanInterfaceContent\Icons\IconBad</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconBad.xnb</Output>
-      <Time>2012-10-21T19:29:02+04:00</Time>
-    </Item>
-    <Item>
-      <Source>InterfaceContent\CartmanInterfaceContent\Icons\IconGood.png</Source>
-      <Name>InterfaceContent\CartmanInterfaceContent\Icons\IconGood</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconGood.xnb</Output>
-      <Time>2012-10-21T19:29:02+04:00</Time>
-    </Item>
-    <Item>
-      <Source>InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.png</Source>
-      <Name>InterfaceContent\CartmanInterfaceContent\Icons\IconNormal</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.xnb</Output>
-      <Time>2012-10-21T19:29:02+04:00</Time>
+      <Time>2012-10-29T13:31:24.6483577+04:00</Time>
     </Item>
     <Item>
       <Source>MySpriteFont.spritefont</Source>
@@ -855,6 +747,78 @@
       <Options>None</Options>
       <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound15.xnb</Output>
       <Time>2012-08-21T20:39:12+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger01\MoveLeft\MoveLeft.png</Source>
+      <Name>Enemies\Gingers\Ginger01\MoveLeft\MoveLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveLeft\MoveLeft.xnb</Output>
+      <Time>2012-10-26T00:04:22.7019436+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger01\MoveRight\MoveRight.png</Source>
+      <Name>Enemies\Gingers\Ginger01\MoveRight\MoveRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveRight\MoveRight.xnb</Output>
+      <Time>2012-10-26T00:04:49.2854641+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger01\MoveDown\MoveDown.png</Source>
+      <Name>Enemies\Gingers\Ginger01\MoveDown\MoveDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveDown\MoveDown.xnb</Output>
+      <Time>2012-10-26T00:14:03.2611497+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger01\MoveUp\MoveUp.png</Source>
+      <Name>Enemies\Gingers\Ginger01\MoveUp\MoveUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveUp\MoveUp.xnb</Output>
+      <Time>2012-10-26T00:17:31.3310506+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger02\MoveDown\MoveDown.png</Source>
+      <Name>Enemies\Gingers\Ginger02\MoveDown\MoveDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveDown\MoveDown.xnb</Output>
+      <Time>2012-10-29T14:19:20.2368688+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger02\MoveUp\MoveUp.png</Source>
+      <Name>Enemies\Gingers\Ginger02\MoveUp\MoveUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveUp\MoveUp.xnb</Output>
+      <Time>2012-10-29T14:19:44.2843245+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger02\MoveLeft\MoveLeft.png</Source>
+      <Name>Enemies\Gingers\Ginger02\MoveLeft\MoveLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveLeft\MoveLeft.xnb</Output>
+      <Time>2012-10-29T14:19:28.4296375+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemies\Gingers\Ginger02\MoveRight\MoveRight.png</Source>
+      <Name>Enemies\Gingers\Ginger02\MoveRight\MoveRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveRight\MoveRight.xnb</Output>
+      <Time>2012-10-29T14:19:36.4249912+04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -121,8 +121,6 @@ C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\L
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\IndexStart\IndexStartUp.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\CartmanHouse\CartmanHouse.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Levels\Index\1.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveDown\MoveDown.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Aliens\MoveRight\MoveRight.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth01.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth02.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth03.xnb
@@ -143,10 +141,6 @@ C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\H
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth18.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth19.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\HealthIndicator\BarHealth20.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveDown\MoveDown.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveUp\MoveUp.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveRight\MoveRight.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Homeless\MoveLeft\MoveLeft.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\MySpriteFont.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound01.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Звуки\Картман\CartmanSound02.xnb
@@ -171,10 +165,6 @@ C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\Microsoft
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\фыв\Desktop\South Park\South Park\South Park\obj\x86\Debug\South_Park.South_Park.Title.rTitle.resources
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Money.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconGood.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\CartmanInterfaceContent\Icons\IconBad.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Panel.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Разговоры\Dialog1.xnb
 C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\CartmanContent\Movement\Left.xnb
@@ -310,5 +300,11 @@ D:\South Park\South Park\South Park\obj\x86\Debug\South Park.exe
 D:\South Park\South Park\South Park\obj\x86\Debug\South Park.pdb
 D:\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\City.xnb
 D:\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Tawer.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\City.xnb
-C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\InterfaceContent\Tawer.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveLeft\MoveLeft.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveRight\MoveRight.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveDown\MoveDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger01\MoveUp\MoveUp.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveDown\MoveDown.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveUp\MoveUp.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveLeft\MoveLeft.xnb
+C:\Users\фыв\Desktop\South Park\South Park\South Park\bin\x86\Debug\Content\Enemies\Gingers\Ginger02\MoveRight\MoveRight.xnb

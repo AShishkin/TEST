@@ -6,7 +6,7 @@ namespace South_Park
     // Переписать в структуру
     class CheckPointMove : DrawableGameComponent
     {
-        SpriteBatch _SpriteBatch;
+        private SpriteBatch SpriteBatch;
 
         public CheckPointMove(Game game, Vector2 location, int direction)
             : base(game)
@@ -17,9 +17,9 @@ namespace South_Park
             this.Location = location;
             this.Direction = direction;
 
-            this.RectangleMask = new Rectangle((int)this.Location.X, (int)this.Location.Y, 60, 60);
+            this.RectangleMask = new Rectangle((int)this.Location.X, (int)this.Location.Y, 20, 20);
 
-            _SpriteBatch = new SpriteBatch(Game.GraphicsDevice);
+            SpriteBatch = new SpriteBatch(Game.GraphicsDevice);
         }
 
         public int Direction { get; set; }
@@ -37,7 +37,7 @@ namespace South_Park
         /// <returns></returns>
         public bool CheckCollision(Rectangle rect)
         {
-            Rectangle spriterect = new Rectangle((int)Location.X, (int)Location.Y, 60, 60);
+            Rectangle spriterect = new Rectangle((int)Location.X, (int)Location.Y, 20, 20);
             return spriterect.Intersects(rect);
         }
 
@@ -47,7 +47,7 @@ namespace South_Park
         /// <returns></returns>
         public Rectangle GetBounds()
         {
-            return new Rectangle((int)this.Location.X, (int)this.Location.Y, 60, 60);
+            return new Rectangle((int)this.Location.X, (int)this.Location.Y, 20, 20);
         }
 
         protected override void LoadContent()
@@ -58,9 +58,9 @@ namespace South_Park
 
         public override void Draw(GameTime gameTime)
         {
-            _SpriteBatch.Begin();
-            _SpriteBatch.Draw(this.Texture, this.RectangleMask, Color.White);
-            _SpriteBatch.End();
+            SpriteBatch.Begin();
+            SpriteBatch.Draw(this.Texture, this.RectangleMask, Color.White);
+            SpriteBatch.End();
 
             base.Draw(gameTime);
         }

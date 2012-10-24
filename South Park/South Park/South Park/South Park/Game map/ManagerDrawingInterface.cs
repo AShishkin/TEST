@@ -26,42 +26,44 @@ namespace South_Park
         public int MoneyIndicator { get; set; }
         public int CartmanContinnumIndicator { get; set; }
         public int TawerCountIndicator { get; set; }
-
-        // Отрисовка иконок Картмана на панели
-        private void CartmanIconsDraw()
-        {
-            if (this.HelthIndicator <= 30) SpriteBatch.Draw(Texture[2], new Rectangle(605, 640, 89, 89), Color.White);
-            else if (this.HelthIndicator >= 31 && this.HelthIndicator <= 61) SpriteBatch.Draw(Texture[1], new Rectangle(605, 640, 89, 89), Color.White);
-            else if (this.HelthIndicator >= 61) SpriteBatch.Draw(Texture[0], new Rectangle(605, 640, 89, 89), Color.White);
-        }
+        public int CityHelthIndicator { get; set; }
+        public int ECountIndicator { get; set; }
+        public string EName { get; set; }
+  
+       
 
 
         private void InterfaceStringDraw()
         {
             // Монеты
-            SpriteBatch.DrawString(SpriteFont, "x " + this.MoneyIndicator, new Vector2(415, 700), Color.White);
+            SpriteBatch.DrawString(SpriteFont, "x " + this.MoneyIndicator, new Vector2(425, 700), Color.White);
+            // Башни
+            SpriteBatch.DrawString(SpriteFont, this.TawerCountIndicator + " x", new Vector2(842, 700), Color.White);
+            // Жизни города
+            SpriteBatch.DrawString(SpriteFont, this.CityHelthIndicator.ToString() , new Vector2(1010, 680), Color.White);
 
-            SpriteBatch.DrawString(SpriteFont, "x " + this.TawerCountIndicator, new Vector2(615, 700), Color.White);
+            SpriteBatch.DrawString(SpriteFont, this.ECountIndicator.ToString(), new Vector2(225, 680), Color.White);
 
+            SpriteBatch.DrawString(SpriteFont, this.EName, new Vector2(205, 700), Color.White);
 
             //SpriteBatch.DrawString(SpriteFont, "x " + this.CartmanContinnumIndicator, new Vector2(690, 700), Microsoft.Xna.Framework.Color.White);
 
-            //if (this.HelthIndicator <= 30)
-            //{
-            //    SpriteBatch.DrawString(SpriteFont, this.HelthIndicator + "%", new Vector2(625, 700), Microsoft.Xna.Framework.Color.Black);
-               
-            //}
-            //if ((this.HelthIndicator >= 31) && (this.HelthIndicator <= 80))
-            //{
-            //    SpriteBatch.DrawString(SpriteFont, this.HelthIndicator + "%", new Vector2(625, 700), Microsoft.Xna.Framework.Color.Yellow);
-            //}
-
-            //if (this.HelthIndicator >= 81)
-            //{
-            //    SpriteBatch.DrawString(SpriteFont, this.HelthIndicator + "%", new Vector2(625, 700), Microsoft.Xna.Framework.Color.Lime);
-                
-
-            //}
+            if (this.HelthIndicator >= 100)
+                SpriteBatch.DrawString(SpriteFont, this.HelthIndicator.ToString(), new Vector2(633, 680), Color.Lime);
+            else if (this.HelthIndicator < 100 && this.HelthIndicator >= 10)
+            {
+                if(this.HelthIndicator >= 80)
+                    SpriteBatch.DrawString(SpriteFont, this.HelthIndicator.ToString(), new Vector2(638, 680), Color.Lime);
+                else if(this.HelthIndicator >= 40 && this.HelthIndicator < 80) 
+                    SpriteBatch.DrawString(SpriteFont, this.HelthIndicator.ToString(), new Vector2(638, 680), Color.Orange);
+                else if (this.HelthIndicator <= 40)
+                {
+                    SpriteBatch.DrawString(SpriteFont, this.HelthIndicator.ToString(), new Vector2(638, 680), Color.Red);
+                    SpriteBatch.Draw(Texture[2], new Rectangle(0, 0, 1320, 720), Color.White);
+                }
+            }
+            else if (this.HelthIndicator < 10)
+                SpriteBatch.DrawString(SpriteFont, this.HelthIndicator.ToString(), new Vector2(644, 680), Color.Red);
         }
 
         // Отрисовка интерфейса
@@ -70,54 +72,27 @@ namespace South_Park
             // Фон
             SpriteBatch.Draw(this.Background, new Rectangle(0, 0, 1320, 720), Color.White);
             // Панель
-            SpriteBatch.Draw(Texture[3], new Rectangle(150, 633, 1020, 100), Color.White);
-            // Картинка города
-   //         SpriteBatch.Draw(Texture[4], new Rectangle(1050, 640, 150, 80), Color.White);
-            // Монеты
-          //  SpriteBatch.Draw(Texture[5], new Rectangle(370, 640, 80, 80), Color.White);
-            // Башня
-           // SpriteBatch.Draw(Texture[7], new Rectangle(100, 653, 60, 80), Color.White);
-            // Красная обводка при малом кол-ве здоровья
-            if (this.HelthIndicator <= 30) SpriteBatch.Draw(Texture[6], new Rectangle(0, 0, 1320, 720), Color.White);              
+            SpriteBatch.Draw(Texture[0], new Rectangle(150, 653, 1004, 69), Color.White);  
         }
 
 
         protected override void LoadContent()
         {
-            Texture.Add(0, Game.Content.Load<Texture2D>("InterfaceContent/CartmanInterfaceContent/Icons/IconGood"));
-            Texture.Add(1, Game.Content.Load<Texture2D>("InterfaceContent/CartmanInterfaceContent/Icons/IconNormal"));
-            Texture.Add(2, Game.Content.Load<Texture2D>("InterfaceContent/CartmanInterfaceContent/Icons/IconBad"));
 
-            Texture.Add(3, Game.Content.Load<Texture2D>("InterfaceContent/Panel"));
-            Texture.Add(4, Game.Content.Load<Texture2D>("InterfaceContent/City"));
-            Texture.Add(5, Game.Content.Load<Texture2D>("InterfaceContent/Money"));
-            Texture.Add(6, Game.Content.Load<Texture2D>("InterfaceContent/Alert/InterfaceAlert"));
-            Texture.Add(7, Game.Content.Load<Texture2D>("InterfaceContent/Tawer"));
-
-
-
-           // this.Interface[8] = Game.Content.Load<Texture2D>("Анимация/TestBackground");
-
-
+            Texture.Add(0, Game.Content.Load<Texture2D>("InterfaceContent/Panel"));
+            Texture.Add(2, Game.Content.Load<Texture2D>("InterfaceContent/Alert/InterfaceAlert"));
 
             base.LoadContent();
         }
-
-
-        
 
 
         public override void Draw(GameTime gameTime)
         {
             SpriteBatch.Begin();
             this.InterfaceDraw();
-            this.CartmanIconsDraw();
             this.InterfaceStringDraw();
             SpriteBatch.End();
             base.Draw(gameTime);
         }
-
-
-
     }
 }

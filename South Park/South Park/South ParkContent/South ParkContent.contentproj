@@ -79,13 +79,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InterfaceContent\City.png">
-      <Name>City</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="CartmanContent\Действия\Dead.png">
       <Name>Dead</Name>
       <Importer>TextureImporter</Importer>
@@ -151,13 +144,6 @@
   <ItemGroup>
     <Compile Include="Облака\Clouds.png">
       <Name>Clouds</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="InterfaceContent\Money.png">
-      <Name>Money</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -415,20 +401,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enemies\Aliens\MoveDown\MoveDown.png">
-      <Name>MoveDown</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Enemies\Aliens\MoveRight\MoveRight.png">
-      <Name>MoveRight</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="CartmanContent\Действия\Inactivity.png">
       <Name>Inactivity</Name>
       <Importer>TextureImporter</Importer>
@@ -573,28 +545,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enemies\Homeless\MoveDown\MoveDown.png">
-      <Name>MoveDown</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Enemies\Homeless\MoveUp\MoveUp.png">
-      <Name>MoveUp</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Enemies\Homeless\MoveRight\MoveRight.png">
-      <Name>MoveRight</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Enemies\Homeless\MoveLeft\MoveLeft.png">
-      <Name>MoveLeft</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="CartmanContent\Stopped\StoppedBad.png">
       <Name>StoppedBad</Name>
       <Importer>TextureImporter</Importer>
@@ -616,8 +566,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InterfaceContent\Tawer.png">
-      <Name>Tawer</Name>
+    <Compile Include="Enemies\Gingers\Ginger01\MoveLeft\MoveLeft.png">
+      <Name>MoveLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemies\Gingers\Ginger01\MoveRight\MoveRight.png">
+      <Name>MoveRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemies\Gingers\Ginger01\MoveDown\MoveDown.png">
+      <Name>MoveDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemies\Gingers\Ginger01\MoveUp\MoveUp.png">
+      <Name>MoveUp</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -630,18 +601,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InterfaceContent\CartmanInterfaceContent\Icons\IconBad.png">
-      <Name>IconBad</Name>
+    <Compile Include="Enemies\Gingers\Ginger02\MoveDown\MoveDown.png">
+      <Name>MoveDown</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="InterfaceContent\CartmanInterfaceContent\Icons\IconGood.png">
-      <Name>IconGood</Name>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemies\Gingers\Ginger02\MoveLeft\MoveLeft.png">
+      <Name>MoveLeft</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="InterfaceContent\CartmanInterfaceContent\Icons\IconNormal.png">
-      <Name>IconNormal</Name>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemies\Gingers\Ginger02\MoveRight\MoveRight.png">
+      <Name>MoveRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemies\Gingers\Ginger02\MoveUp\MoveUp.png">
+      <Name>MoveUp</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

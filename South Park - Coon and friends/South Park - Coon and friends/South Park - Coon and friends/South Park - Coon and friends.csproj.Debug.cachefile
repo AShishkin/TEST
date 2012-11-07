@@ -1,0 +1,11 @@
+Content\Map\Cell\Cell.xnb
+Content\Eric\Movement\Down.xnb
+Content\Eric\Movement\Left.xnb
+Content\Eric\Movement\Right.xnb
+Content\Eric\Movement\Up.xnb
+Content\Eric\Stopped\StoppedBad.xnb
+Content\Eric\Stopped\StoppedGood.xnb
+Content\Eric\Stopped\StoppedNormal.xnb
+Content\Map\CellNow.xnb
+Content\SpriteFont1.xnb
+Content\Map\CellNowFalse.xnb

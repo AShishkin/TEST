@@ -1,0 +1,17 @@
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\obj\x86\Debug\South Park - Coon and friends.csprojResolveAssemblyReference.cache
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\Cell\Cell.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\South Park - Coon and friends.exe
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\South Park - Coon and friends.pdb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\obj\x86\Debug\South Park - Coon and friends.exe
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\obj\x86\Debug\South Park - Coon and friends.pdb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Down.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Left.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Right.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Up.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedBad.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedGood.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedNormal.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\CellNow.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\SpriteFont1.xnb
+c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\CellNowFalse.xnb

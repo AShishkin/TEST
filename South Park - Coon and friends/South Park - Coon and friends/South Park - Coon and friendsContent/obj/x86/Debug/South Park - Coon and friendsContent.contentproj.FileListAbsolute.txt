@@ -1,1 +1,2 @@
 c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friendsContent\obj\x86\Debug\South Park - Coon and friendsContent.contentprojResolveAssemblyReference.cache
+C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friendsContent\obj\x86\Debug\South Park - Coon and friendsContent.contentprojResolveAssemblyReference.cache

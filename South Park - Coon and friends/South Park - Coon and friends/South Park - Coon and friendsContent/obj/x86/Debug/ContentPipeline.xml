@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\Cell\Cell.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\Cell\Cell.xnb</Output>
       <Time>2012-11-07T14:07:00.8579812+04:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Down.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Down.xnb</Output>
       <Time>2012-11-07T15:17:23.771576+04:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Left.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Left.xnb</Output>
       <Time>2012-11-07T15:17:23.781576+04:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Right.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Right.xnb</Output>
       <Time>2012-11-07T15:17:23.791576+04:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Up.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Movement\Up.xnb</Output>
       <Time>2012-11-07T15:17:23.801576+04:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedBad.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedBad.xnb</Output>
       <Time>2012-11-07T15:19:34.1571784+04:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedGood.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedGood.xnb</Output>
       <Time>2012-11-07T15:19:34.1671785+04:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedNormal.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Eric\Stopped\StoppedNormal.xnb</Output>
       <Time>2012-11-07T15:19:34.1771785+04:00</Time>
     </Item>
     <Item>
@@ -79,17 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\CellNow.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\CellNow.xnb</Output>
       <Time>2012-11-07T16:12:44.0621844+04:00</Time>
-    </Item>
-    <Item>
-      <Source>SpriteFont1.spritefont</Source>
-      <Name>SpriteFont1</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2012-11-07T16:50:47.6517794+04:00</Time>
     </Item>
     <Item>
       <Source>Map\CellNowFalse.png</Source>
@@ -97,8 +88,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\CellNowFalse.xnb</Output>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Map\CellNowFalse.xnb</Output>
       <Time>2012-11-07T17:02:19.6704947+04:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-11-07T16:50:47.6517794+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\EricHouse\Background.png</Source>
+      <Name>Levels\EricHouse\Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Levels\EricHouse\Background.xnb</Output>
+      <Time>2012-11-08T21:15:50.7936763+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Towers\CameraTower\TowerL1.png</Source>
+      <Name>Towers\CameraTower\TowerL1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\Towers\CameraTower\TowerL1.xnb</Output>
+      <Time>2012-11-08T22:03:22.7507989+04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -106,10 +124,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friendsContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friendsContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\фыв\documents\visual studio 2010\Projects\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friendsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friendsContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\фыв\Desktop\South Park - Coon and friends\South Park - Coon and friends\South Park - Coon and friends\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

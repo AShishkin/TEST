@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System.Threading;
 
 namespace South_Park___Coon_and_friends
 {
@@ -19,13 +20,17 @@ namespace South_Park___Coon_and_friends
         Level level;
         private SpriteFont SGC;
 
+
+        
+
         public Game1()
         {
-
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferWidth = 1280;
             graphics.PreferredBackBufferHeight = 724;
             Content.RootDirectory = "Content";
+
+            
             
         }
 
@@ -33,6 +38,7 @@ namespace South_Park___Coon_and_friends
         protected override void Initialize()
         {
             level = new Level(this);
+           
 
             base.Initialize();
         }
@@ -41,9 +47,10 @@ namespace South_Park___Coon_and_friends
         protected override void LoadContent()
         {
 
-            
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            spriteBatch = ManagerSpiteBatch.SpriteBatch = new SpriteBatch(GraphicsDevice);
             SGC = Content.Load<SpriteFont>("SpriteFont1");
+
 
           
         }
@@ -55,10 +62,14 @@ namespace South_Park___Coon_and_friends
         }
 
 
+             
+
+
+
         protected override void Update(GameTime gameTime)
         {
+
             level.Update(gameTime);
-          
             base.Update(gameTime);
         }
 
@@ -66,9 +77,6 @@ namespace South_Park___Coon_and_friends
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
-
-
 
             level.Draw(gameTime);
 

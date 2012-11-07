@@ -57,7 +57,7 @@ namespace South_Park___Coon_and_friends
             this.LoadContent(); 
             CreateGameObject = new Dictionary<int, DMethods>
             {
-                { 0, this.CreateCameraTawer },
+                { 0, this.CreateCameraTower },
                 { 1, this.CreateSnowball },
                 { 2, this.NullObject },
             };
@@ -164,9 +164,9 @@ namespace South_Park___Coon_and_friends
             }
         }
         // Создание камеры
-        private void CreateCameraTawer()
+        private void CreateCameraTower()
         {
-            this.CommandsCreateGameObjects = "CameraTawer";
+            this.CommandsCreateGameObjects = "CameraTower";
         }
 
         private void CreateSnowball()

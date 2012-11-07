@@ -8,6 +8,7 @@ namespace South_Park___Coon_and_friends
     #endregion
     struct Cell
     {
+
         /// <summary>
         /// Игровая клетка
         /// </summary>
@@ -20,6 +21,7 @@ namespace South_Park___Coon_and_friends
             this.i = i;
             this.j = j;
             this.Enabled = enabled;
+
         }
         /// <summary>
         /// Положение

@@ -5,7 +5,8 @@ namespace South_Park___Coon_and_friends
 {
     class Animation : DrawableGameComponent
     {
-        private SpriteBatch SpriteBatch;
+       // private SpriteBatch SpriteBatch;
+        
 
         /// <summary>
         /// Конструктор анимации 
@@ -15,7 +16,7 @@ namespace South_Park___Coon_and_friends
         public Animation(Game game, Texture2D texture2D)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+           // SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = Vector2.Zero;
@@ -24,6 +25,8 @@ namespace South_Park___Coon_and_friends
             this.Frequency = 10;
             this.CurrentFrame = this.StartFrame = 0;
             this.TimeFrame = (float)1 / this.Frequency;   
+
+            
         }
         /// <summary>
         /// Конструктор анимации 
@@ -34,7 +37,7 @@ namespace South_Park___Coon_and_friends
         public Animation(Game game, Texture2D texture2D, Vector2 location)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+            //SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = location;
@@ -54,7 +57,7 @@ namespace South_Park___Coon_and_friends
         public Animation(Game game, Texture2D texture2D, Vector2 location, System.Drawing.Size size)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+           // SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = location;
@@ -75,7 +78,7 @@ namespace South_Park___Coon_and_friends
         public Animation(Game game, Texture2D texture2D, Vector2 location, System.Drawing.Size size, int frames)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+            //SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = location;
@@ -98,7 +101,7 @@ namespace South_Park___Coon_and_friends
                                int frequency)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+           // SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = location;
@@ -122,7 +125,7 @@ namespace South_Park___Coon_and_friends
                                int frequency, int startFrame)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+           // SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = location;
@@ -148,7 +151,7 @@ namespace South_Park___Coon_and_friends
                                int frequency, int startFrame, int timeFrame)
             : base(game)
         {
-            SpriteBatch = new SpriteBatch(game.GraphicsDevice);
+           // SpriteBatch = new SpriteBatch(game.GraphicsDevice);
 
             this.Texture = texture2D;
             this.Location = location;
@@ -158,6 +161,7 @@ namespace South_Park___Coon_and_friends
             this.CurrentFrame = 0;
             this.StartFrame = startFrame;
             this.TimeFrame = timeFrame;
+
         }
 
 
@@ -357,9 +361,19 @@ namespace South_Park___Coon_and_friends
         /// <param name="gameTime"></param>
         public override void Draw(GameTime gameTime)
         {
-            SpriteBatch.Begin(SpriteSortMode.Texture, BlendState.NonPremultiplied);
-            SpriteBatch.Draw(this.Texture, this.Location, this.RectangleSprite, Color.White);
-            SpriteBatch.End();
+            
+
+
+            //SpriteBatch.Begin(SpriteSortMode.Texture, BlendState.NonPremultiplied);
+            ManagerSpiteBatch.SpriteBatch.Begin(SpriteSortMode.Texture,
+                        BlendState.AlphaBlend,
+                        null,
+                        null,
+                        null,
+                        null,
+                        Camera2D.get_transformation(Game.GraphicsDevice));
+            ManagerSpiteBatch.SpriteBatch.Draw(this.Texture, this.Location, this.RectangleSprite, Color.White);
+            ManagerSpiteBatch.SpriteBatch.End();
             base.Draw(gameTime);
         }
     }
